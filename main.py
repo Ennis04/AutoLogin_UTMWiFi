@@ -5,8 +5,8 @@ import time
 # WiFi and Login Credentials
 WIFI_NAME = "UTMWiFi"
 LOGIN_URL = "https://wifi.utm.my/login.php"
-USERNAME = "ennis"
-PASSWORD = "Ennis04*"
+USERNAME = "student_ID" # Replace with your student ID
+PASSWORD = "ID_Password*" # Replace with your student ID password
 
 # Function to check if connected to UTMWIFI
 def is_connected_to_wifi():
