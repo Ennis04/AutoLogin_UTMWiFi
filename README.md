@@ -36,5 +36,35 @@ Download VS Code using the link https://code.visualstudio.com/.
 1. Open **Command Prompt** (Win + R, type **cmd**, press **Enter**).
 2. Navigate to the folder where you want to store the project.
 3. **git clone https://github.com/Ennis04/AutoLogin_UTMWiFi.git**
+4. Navigate to the project folder
 
-5️⃣
+**5️⃣Edit your Data**
+1. Open "**main.py**".
+2. Change and update your Username and Password.
+3. Run with debugger (Ctrl + F5).
+
+
+**6️⃣Set Up Auto-Login on Windows Startup**
+1. Press **Win + R**, type **taskchd.msc** and press **Enter**.
+2. Click "**Create Basic Task**" and name it as UTMWiFi AutoLogin.
+3. At the Trigger section, select "**When I log on**".
+4. At the Action section, select "**Start a Program**".
+5. Browse for "**python.exe**".
+6. Add a the "**main.py**" file path in the arguement.
+7. Click **Finish**.
+
+---
+
+<h2>Disable Auto-Login</h2>
+
+If you want to disable it:
+1. Press **Win + R**, type **taskchd.msc** and press **Enter**.
+2. Go to **Task Scheduler Library**, find UTMWiFi AutoLogin.
+3. Click **Disable/ Delete**.
+
+---
+
+## 📌 Credits
+
+- Developed by [Ennis Lam Si Hooog](https://github.com/ennis04)
+- Assisted by ChatGPT (https://openai.com/chatgpt)
